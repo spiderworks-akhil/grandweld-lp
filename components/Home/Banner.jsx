@@ -24,7 +24,7 @@ export default function HomeBanner({}) {
                 <ButtonRound text="Since 1982" className="text-[13px] bg-[#fff] hover:bg-[#000] text-[#050505] hover:text-[#fff]" />
 
                 <h1 className="text-[#fff] font-segoe-ui lg:text-[64px] text-[50px] font-[400] lg:leading-[64px] leading-[50px] tracking-[-0.64px] mt-[15px]">
-                  World-Class <strong>Shipbuilding & Ship Repair</strong>{" "}
+                  World-Class <strong> Ship Repair</strong>{" "}
                   Services in Dubai
                 </h1>
 
