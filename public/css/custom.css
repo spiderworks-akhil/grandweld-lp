@@ -199,3 +199,24 @@
   background-position: center;
   background-size: cover;
 }
+
+.btm-sticky-btn{
+  padding: 10px 20px 10px 20px;
+  background-color: #F8F2E8;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  z-index: 10;
+}
+
+.btm-sticky-btn h4{
+      font-size: 20px;
+    color: #000;
+    margin-bottom: 0px;
+        font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}

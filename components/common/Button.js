@@ -8,10 +8,11 @@ export const ButtonRound = ({
   span,
   arrow,
   onClick,
+  link,
   type = "button",
 }) => {
   return (
-    <button
+    <a href={link}
       onClick={onClick}
       type={type}
       className={`button-round relative group  py-[13.93px] px-[30px] rounded-[100px] font-segoe-ui  transition-all ease-in font-[600] leading-[12.17px] ${className} `}
@@ -19,6 +20,6 @@ export const ButtonRound = ({
       {span}
       {text}
       {arrow}
-    </button>
+    </a>
   );
 };
