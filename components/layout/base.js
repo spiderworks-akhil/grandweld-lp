@@ -64,8 +64,6 @@ const Base = ({ children, headerBg = true, data }) => {
       </div>
 
       <Footer data={data} />
-      
-
       <PopupModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </>
   );
