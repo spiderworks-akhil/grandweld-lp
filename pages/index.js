@@ -2,14 +2,12 @@ import Image from "next/image";
 import Base from "@/components/layout/base";
 import HomeBanner from "@/components/Home/Banner";
 import Service from "@/components/Home/Service";
-import HomeAbout from "@/components/Home/HomeAbout";
 import HomeAboutLP from "@/components/Home/HomeAboutLP";
 import VideoWrapper from "@/components/Home/VideoWrapper";
 import IndustryLeaders from "@/components/Home/IndustryLeaders";
 import HomeAboutBtm from "@/components/Home/HomeAboutBtm";
 import ContactForm from "@/components/common/ContactForm";
-import HomeVideoSection from "@/components/home/HomeVideoSection";
-
+import HomeVideoSection from "@/components/Home/HomeVideoSection";
 
 export default function Home({}) {
   return (
@@ -33,8 +31,6 @@ export default function Home({}) {
       <HomeVideoSection />
 
       <IndustryLeaders />
-
-
     </Base>
   );
 }
