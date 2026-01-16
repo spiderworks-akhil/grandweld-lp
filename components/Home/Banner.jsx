@@ -6,14 +6,15 @@ import ContactForm from "../common/ContactForm";
 export default function HomeBanner({}) {
   return (
     <section id="home-banner" className="relative lg:min-h-[780px] h-[400px]">
-      <div className="home-banner-img h-full ">
+      <div className="home-banner-img h-full">
         <Image
           src={HomeBannerImg}
           alt="HomeBannerImg"
           width={1600}
           height={750}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover "
         />
+           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-black/20" />
       </div>
 
       <div className="home-banner-content-block absolute bottom-[50px] w-full">
@@ -31,7 +32,7 @@ export default function HomeBanner({}) {
                   from Dubai’s Top Shipyard
                 </h1>
 
-                <p className="text-[#fff] font-segoe-ui text-[16px] font-normal leading-[24px] tracking-[-0.32px] mt-[35px]">
+                <p className="text-[#fff] font-segoe-ui text-[23px] font-normal leading-[24px] tracking-[-0.32px] mt-[35px]">
                   Trusted Ship Repair Experts in Dubai Since 1984
                 </p>
               </div>

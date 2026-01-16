@@ -12,32 +12,34 @@ export default function HomeAboutLP() {
       <div className="container">
         <div className="flex mx-[-15px] flex-wrap ">
           <div className="w-full px-[15px] ">
-            <div className="grid lg:grid-cols-2 grid-cols-1 gap-[30px] justify-between items-center relative md:px-[60px]">
+            <div className="grid lg:grid-cols-2 grid-cols-1 gap-[30px] justify-between items-top relative md:px-[60px]">
               <div className="HomeAbout-title lg:max-w-[560px] w-full">
                 <H2 text="About Us" />
 
                 <P
-                  className="mt-[13px]"
-                  text="Grandweld Shipyards is a well-established ship repair and engineering company based in Dubai, UAE, backed by more than 40 years of maritime experience. Operating from Dubai Maritime City, we deliver dependable ship repair, maintenance, and conversion services for a wide variety of vessels."
+                  className="mt-[70px] text-[18px] leading-[24px] pt-4"
+                  
+                  text ="Grandweld Shipyards is a well-established ship repair and engineering company based in Dubai, UAE, backed by more than 40 years of maritime experience. Operating from Dubai Maritime City, we deliver dependable ship repair, maintenance, and conversion services for a wide variety of vessels."
                 />
                 <P
-                  className="mt-[13px]"
+                  className=" text-[18px] leading-[24px] pt-4 "
                   text="With modern facilities and experienced technical teams, we provide efficient ship repair solutions that reduce downtime while complying with international safety and quality standards. Trusted by both regional and global maritime operators, Grandweld remains focused on keeping vessels safe, operational, and on schedule."
                 />
-
+<div className="btn pt-7">
                 <ButtonRound
                   text="Get a Quote"
                   onClick={() => setIsModalOpen(true)}
-                  className="text-[14px] capitalize flex items-center justify-between max-w-[242px] w-full mt-6 text-[#fff] bg-[#000] border border-[#EEE]"
+                  className="text-[14px] capitalize flex items-center justify-between max-w-[242px] w-full mt-6  text-[#fff] bg-[#000] border border-[#EEE]"
                   arrow={
                     <span className="text-white w-[18px] h-[18px] rounded-[50%] bg-[#fff] flex items-center justify-center">
                       <BtnLinkArrow />
                     </span>
                   }
                 />
+                </div>
               </div>
 
-              <div className="flex flex-col items-center gap-[5px]">
+              <div className="flex flex-col items-center gap-[15px]">
                 <div className="about-ship-img-block ">
                   <Image
                     src={AboutShipImg}

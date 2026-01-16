@@ -1,5 +1,5 @@
 import Image from "next/image";
-import AboutBtmMainImg from "@/public/img/LP/about-btm-main.jpg";
+import AboutBtmMainImg from "@/public/img/LP/new/about-btm-main.jpg";
 import AboutBtmSubImg01 from "@/public/img/LP/about-btm-sub-01.jpg";
 import AboutBtmSubImg02 from "@/public/img/LP/about-btm-sub-02.jpg";
 import AboutBtmSubImg03 from "@/public/img/LP/about-btm-sub-03.jpg";
@@ -15,7 +15,7 @@ export default function HomeAboutBtm() {
       <div className="container">
         <div className="flex  flex-wrap ">
           <div className="w-full  md:pb-[100px] pb-[50px]">
-            <h3 className="text-[#1E1E1E] font-segoe-ui md:text-[38px] text-[30px] font-[400] md:leading-[55px] tracking-[-0.38px] leading-[45px]">
+            <h3 className="text-[#1E1E1E] font-segoe-ui md:text-[28px] text-[20px] font-[400] md:leading-[55px] tracking-[-0.38px] leading-[45px]">
               Grandweld Shipyards is a trusted ship repair specialist located at
               Dubai Maritime City, UAE, with more than 40 years of industry
               experience. We provide dependable drydock and afloat ship repair
@@ -27,16 +27,16 @@ export default function HomeAboutBtm() {
         </div>
 
         <div className="grid w-full md:grid-cols-2 gap-[45px]">
-          <div className="about-btm-block-img relative">
+          <div className="about-btm-block-img relative ">
             <Image
               src={AboutBtmMainImg}
               alt="AboutBtmMainImg"
               width={660}
               height={478}
-              className="w-full object-cover"
+              className="w-full object-cover rounded-[5px] "
             />
 
-            <div className="grid grid-cols-3 gap-[2px]">
+            <div className="grid grid-cols-3 gap-[2px] ">
               <Image
                 src={AboutBtmSubImg01}
                 alt="AboutBtmSubImg01"
@@ -77,7 +77,7 @@ export default function HomeAboutBtm() {
           <div className="flex flex-col justify-between">
             <div className="about-statics">
               <div className="border-b border-[#1E1E1E] pb-[12px] flex items-center justify-between mb-[80px]">
-                <h3 className="font-segoe-ui pr-[15px]">Since 1982</h3>
+                <h3 className="font-segoe-ui pr-[15px]">Since 1984</h3>
 
                 <p className="font-segoe-ui max-w-[360px]">
                   Grandweld Shipyards has been providing{" "}
