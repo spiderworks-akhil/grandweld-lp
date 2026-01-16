@@ -1,5 +1,5 @@
 import Image from "next/image";
-import HomeBannerImg from "@/public/img/LP/home-banner.jpg";
+import HomeBannerImg from "@/public/img/LP/new/home-banner.jpg";
 import { ButtonRound } from "../common/Button";
 import { H1 } from "../common/Styling";
 import ContactForm from "../common/ContactForm";
@@ -21,17 +21,18 @@ export default function HomeBanner({}) {
           <div className="flex mx-[-15px] flex-wrap items-end justify-between">
             <div className="lg:w-6/12 w-full px-[15px]">
               <div className="home-banner-content-block-left md:block hidden">
-                <ButtonRound text="Since 1982" className="text-[13px] bg-[#fff] hover:bg-[#000] text-[#050505] hover:text-[#fff]" />
+                <ButtonRound
+                  text="Since 1984"
+                  className="text-[13px] bg-[#fff] hover:bg-[#000] text-[#050505] hover:text-[#fff]"
+                />
 
                 <h1 className="text-[#fff] font-segoe-ui lg:text-[64px] text-[50px] font-[400] lg:leading-[64px] leading-[50px] tracking-[-0.64px] mt-[15px]">
-                  World-Class <strong> Ship Repair</strong>{" "}
-                  Services in Dubai
+                  Expert <strong> Ship Repair</strong> & Engineering Solutions
+                  from Dubai’s Top Shipyard
                 </h1>
 
                 <p className="text-[#fff] font-segoe-ui text-[16px] font-normal leading-[24px] tracking-[-0.32px] mt-[35px]">
-                  With over 40 years of industry expertise, we deliver precision
-                  engineering, timely project execution, and exceptional
-                  maritime solutions.
+                  Trusted Ship Repair Experts in Dubai Since 1984
                 </p>
               </div>
             </div>

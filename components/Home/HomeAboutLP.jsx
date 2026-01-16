@@ -1,37 +1,33 @@
 import Image from "next/image";
-import AboutShipImg from "@/public/img/LP/about-ship-img.png";
+import AboutShipImg from "@/public/img/LP/new/about-us.jpg";
 import { ButtonRound } from "../common/Button";
 import { H2, P } from "../common/Styling";
 import { BtnLinkArrow } from "../common/svgIcons";
 import { useState } from "react";
 import PopupModal from "../common/PopupModal";
 export default function HomeAboutLP() {
-    const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <section id="HomeAbout" className="relative pb-[100px]">
       <div className="container">
         <div className="flex mx-[-15px] flex-wrap ">
           <div className="w-full px-[15px] ">
-            <div className="grid lg:grid-cols-2 grid-cols-1 gap-[40px] justify-between items-end relative md:px-[60px]">
+            <div className="grid lg:grid-cols-2 grid-cols-1 gap-[30px] justify-between items-center relative md:px-[60px]">
               <div className="HomeAbout-title lg:max-w-[560px] w-full">
-                <H2 text="Our Engineering Department" />
+                <H2 text="About Us" />
 
                 <P
                   className="mt-[13px]"
-                  text="With 40+ years of expertise since 1982, Grandweld operates one of the most advanced and trusted shipyards in Dubai Maritime City. Our 55,000 m² integrated facility is engineered to deliver world-class shipbuilding, ship repair, and vessel conversion with unmatched precision and efficiency."
+                  text="Grandweld Shipyards is a well-established ship repair and engineering company based in Dubai, UAE, backed by more than 40 years of maritime experience. Operating from Dubai Maritime City, we deliver dependable ship repair, maintenance, and conversion services for a wide variety of vessels."
                 />
                 <P
                   className="mt-[13px]"
-                  text="Built on decades of proven performance, the yard features modern workshops, covered fabrication areas, outfitting zones, dedicated storage sections, and high-capacity ship lifts — enabling us to manage multiple large-scale projects simultaneously."
-                />
-                <P
-                  className="mt-[13px]"
-                  text="We collaborate with leading global marine suppliers, classification societies, and industry partners, ensuring every vessel meets the highest standards of safety, engineering excellence, and compliance. Supported by a highly experienced workforce and strict QHSE practices, we guarantee reliable timelines, superior workmanship, and long-term value for our clients."
+                  text="With modern facilities and experienced technical teams, we provide efficient ship repair solutions that reduce downtime while complying with international safety and quality standards. Trusted by both regional and global maritime operators, Grandweld remains focused on keeping vessels safe, operational, and on schedule."
                 />
 
                 <ButtonRound
                   text="Get a Quote"
-                       onClick={() => setIsModalOpen(true)}
+                  onClick={() => setIsModalOpen(true)}
                   className="text-[14px] capitalize flex items-center justify-between max-w-[242px] w-full mt-6 text-[#fff] bg-[#000] border border-[#EEE]"
                   arrow={
                     <span className="text-white w-[18px] h-[18px] rounded-[50%] bg-[#fff] flex items-center justify-center">
@@ -41,13 +37,13 @@ export default function HomeAboutLP() {
                 />
               </div>
 
-              <div className="">
+              <div className="flex flex-col items-center gap-[5px]">
                 <div className="about-ship-img-block ">
                   <Image
                     src={AboutShipImg}
                     alt="AboutShipImg"
                     width={702}
-                    height={534}
+                    height={234}
                     className="w-full object-contain"
                   />
                 </div>
@@ -55,34 +51,34 @@ export default function HomeAboutLP() {
                 <div className="grid gap-[5px] md:grid-cols-3 grid-cols-1">
                   <div className="bg-[#F8F2E8] md:max-w-[200px] rounded-[6px] py-[15px] px-[18px]">
                     <h3 className="text-[#1E1E1E] font-segoe-ui text-[13px] font-[600] capitalize">
-                      Marine Systems Engineering
+                   Customized Repair Solutions
                     </h3>
                     <hr className="border-[#BFB6A8] mt-[10px] mb-[15px]" />
 
                     <h5 className="text-[#1E1E1E] font-segoe-ui text-[13px] font-[400] leading-[18px] tracking-[0.13px]">
-                      Modern, efficient, and reliable ship solutions.
+                    Tailored ship repairs, from small fixes to complex overhauls.
                     </h5>
                   </div>
 
                   <div className="bg-[#E8F1F8] md:max-w-[200px] rounded-[6px] py-[15px] px-[18px]">
                     <h3 className="text-[#1E1E1E] font-segoe-ui text-[13px] font-[600] capitalize">
-                      CAD/CAM & 3D Modeling
+                   Rapid Repairs, 24/7 Support
                     </h3>
                     <hr className="border-[#BFB6A8] mt-[10px] mb-[15px]" />
 
                     <h5 className="text-[#1E1E1E] font-segoe-ui text-[13px] font-[400] leading-[18px] tracking-[0.13px]">
-                      Smooth process from design to delivery.
+                On-standby experts delivering fast, efficient ship repairs.
                     </h5>
                   </div>
 
                   <div className="bg-[#E8F8EB] md:max-w-[200px] rounded-[6px] py-[15px] px-[18px]">
                     <h3 className="text-[#1E1E1E] font-segoe-ui text-[13px] font-[600] capitalize">
-                      Sustainable Engineering
+                    Cost-Effective Maintenance
                     </h3>
                     <hr className="border-[#BFB6A8] mt-[10px] mb-[15px]" />
 
                     <h5 className="text-[#1E1E1E] font-segoe-ui text-[13px] font-[400] leading-[18px] tracking-[0.13px]">
-                      Eco-friendly and future-ready ships.
+                    Prevent costly emergencies with smart, affordable repair solutions.
                     </h5>
                   </div>
                 </div>
