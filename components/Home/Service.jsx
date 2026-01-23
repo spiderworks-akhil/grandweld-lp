@@ -130,7 +130,7 @@ export default function Service() {
       <div className="container">
         <div className="flex mx-[-15px] flex-wrap">
           <div className="w-full px-[15px]">
-            <H2 text="Our Ship Repair Capabilities" className="text-center" />
+            <H2 text="Our Services" className="text-center" />
           </div>
         </div>
 

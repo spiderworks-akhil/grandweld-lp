@@ -28,8 +28,8 @@ export default function HomeBanner({}) {
                 />
 
                 <h1 className="text-[#fff] font-segoe-ui lg:text-[64px] text-[50px] font-[400] lg:leading-[64px] leading-[50px] tracking-[-0.64px] mt-[15px]">
-                  Expert <strong> Ship Repair</strong> & Engineering Solutions
-                  from Dubai’s Top Shipyard
+                  Expert <strong> Ship Repair</strong> Solutions
+                  from Dubai
                 </h1>
 
                 <p className="text-[#fff] font-segoe-ui text-[23px] font-normal leading-[24px] tracking-[-0.32px] mt-[35px]">

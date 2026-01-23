@@ -5,7 +5,7 @@ import { BtnLinkArrow } from "./svgIcons";
 
 export default function ContactForm({}) {
   return (
-    <form className="form bg-[#ffffff6e] py-[40px] px-[20px] rounded-[15px]">
+    <form className="form bg-[#ffffff6e] py-[25px] px-[15px] rounded-[15px]">
       <div className="w-full ">
         <h2 className="text-[#000] font-segoe-ui lg:text-[40px] text-[30px] font-[400] lg:leading-[45px] leading-[35px] tracking-[-0.64px] mt-[15px] mb-[20px]">
           World-Class <strong> Ship Repair</strong> Services in
@@ -37,23 +37,29 @@ export default function ContactForm({}) {
           />
         </div>
 
-        <div className="input-block mb-[20px]">
-          <select
-            name="service"
-            className="input-item w-full border py-[12px] px-[20px] bg-[#fff] rounded-[40px] outline-0 border-[#001D21] text-[#4F767C] text-[18px] placeholder:text-[#000]"
-            defaultValue=""
-          >
-            <option value="" disabled>
-              Service Required
-            </option>
-            <option value="Ship Repair" className="text-[#000]">
-              Ship Repair
-            </option>
-            <option value="Ship Building" className="text-[#000]">
-             Job Requirements / Others
-            </option>
-          </select>
-        </div>
+<div className="input-block mb-[20px]">
+  <textarea
+    name="message"
+    rows={4}
+    placeholder="Enter your message"
+    className="
+      input-item 
+      w-full 
+      border 
+      py-[12px] 
+      px-[20px] 
+      bg-[#fff] 
+      rounded-[20px] 
+      outline-none 
+      border-[#001D21] 
+      text-[#4F767C] 
+      text-[18px] 
+      placeholder:text-[#4F767C]
+      resize-none
+    "
+  />
+</div>
+
       </div>
       <ButtonRound
         text="Get a Quote"

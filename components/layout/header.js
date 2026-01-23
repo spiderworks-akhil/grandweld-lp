@@ -52,10 +52,10 @@ const Header = ({ showBg = true, data }) => {
                 <a href="/">
                   <Image
                     src={Logo}
-                    width={300}
-                    height={300}
+                    width={800}
+                    height={800}
                     alt="logo"
-                    className="w-[60px] object-cover"
+                    className="w-[120px] object-cover"
                   />
                 </a>
               </div>
@@ -120,9 +120,9 @@ const Header = ({ showBg = true, data }) => {
             <div className="flex menu-nav">
               <ButtonRound
                 text="+971 4 4270800"
-                className="text text-[12.17px] flex items-center gap-[10px] bg-[#fff] hover:bg-[#000] text-[#050505] hover:text-[#fff]"
+                className="text text-[14px] flex items-center gap-[10px] bg-[#fff] hover:bg-[#000] text-[#050505] hover:text-[#fff]"
                 span={
-                  <span className="round-span w-[13px] h-[13px] rounded-[50%] bg-[linear-gradient(180deg,#64C7FC_0%,#004C7E_100%)]"></span>
+                  <span className="round-span w-[20px] h-[20px] rounded-[50%] bg-[linear-gradient(180deg,#64C7FC_0%,#004C7E_100%)]"></span>
                 }
               />
             </div>
