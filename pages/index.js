@@ -8,6 +8,7 @@ import IndustryLeaders from "@/components/Home/IndustryLeaders";
 import HomeAboutBtm from "@/components/Home/HomeAboutBtm";
 import ContactForm from "@/components/common/ContactForm";
 import HomeVideoSection from "@/components/Home/HomeVideoSection";
+import VesselsWeRepair from "@/components/Home/vessel";
 
 export default function Home({}) {
   return (
@@ -21,6 +22,7 @@ export default function Home({}) {
       </div>
 
       <Service />
+      <VesselsWeRepair/>
 
       <HomeAboutLP />
 

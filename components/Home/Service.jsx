@@ -1,10 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import ServiceImg01 from "@/public/img/LP/new/offshore-repair.jpg";
-import ServiceImg02 from "@/public/img/LP/new/yatches.jpg";
-import ServiceImg03 from "@/public/img/LP/new/navalvessel.jpg";
-import ServiceImg04 from "@/public/img/LP/new/merchant-ships.jpg";
+
 import ServiceImg05 from "@/public/img/LP/new/Drydockings.jpg";
 import ServiceImg06 from "@/public/img/LP/new/Afloat repairs.jpg";
 import ServiceImg07 from "@/public/img/LP/new/Workshop-repairs.png";
@@ -20,43 +17,7 @@ import PopupModal from "../common/PopupModal";
 import { useState } from "react";
 
 const serviceData = [
-  {
-    id: 1,
-    title: "Offshore Vessel Repairs",
-    imageSrc: ServiceImg01,
-    bgImage: "/img/LP/list-bg-02.png",
-    description: [
-      "OSV drydocking and repair form a key part of our ship repair services. Dubai serves as a central hub for the Middle East offshore fleet, and with over four decades of experience, Grandweld is one of the most established ship repair yards in the UAE. This strong foundation has positioned us as a trusted offshore vessel repair specialist, with thousands of successful drydockings completed over the years.",
-    ],
-  },
-  {
-    id: 2,
-    title: "Superyacht Repair",
-    imageSrc: ServiceImg02,
-    bgImage: "/img/LP/list-bg-01.png",
-    description: [
-      "Dubai is home to many high-net-worth individuals, and Grandweld has extensive experience in superyacht repair and upgrade services. Dubai Maritime City is a key UAE drydock for yacht repair, while the Jadaf Dubai Shipyard is another well-maintained and important drydock where we carry out yacht repairs. Our wide range of high-quality ship repair services ensures that every yacht is repaired and maintained to the right standards.",
-    ],
-  },
-
-  {
-    id: 3,
-    title: "Naval Vessels",
-    imageSrc: ServiceImg03,
-    bgImage: "/img/LP/list-bg-02.png",
-    description: [
-      "Grandweld has decades of experience delivering ship repair services for advanced naval fleets and is recognised as one of the most trusted shipyards in Dubai. This proven expertise has earned the confidence of multiple international governments for naval ship repair work. Operating from our Dubai shipyard, we provide reliable ship repair solutions for a wide range of navy vessels across the region.",
-    ],
-  },
-  {
-    id: 4,
-    title: "Merchant Ships",
-    imageSrc: ServiceImg04,
-    bgImage: "/img/LP/list-bg-02.png",
-    description: [
-      "Grandweld’s collaboration with Dubai Maritime City allows us to deliver highly competitive and efficient ship repair services across the region. DMC’s large synchro-lift drydock in Dubai can handle vessels up to 6,000 tonnes and 130 metres in length. This capability enables a wide range of merchant vessels, including oil tankers, product carriers, container ships, bulk carriers, and ferries, to be drydocked at our UAE shipyard with more cost-effective tariffs compared to other locations.",
-    ],
-  },
+ 
   {
     id: 5,
     title: "Drydockings",

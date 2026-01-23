@@ -1,8 +1,8 @@
 import Image from "next/image";
 import AboutBtmMainImg from "@/public/img/LP/new/about-btm-main.jpg";
 import AboutBtmSubImg01 from "@/public/img/LP/about-btm-sub-01.jpg";
-import AboutBtmSubImg02 from "@/public/img/LP/about-btm-sub-02.jpg";
-import AboutBtmSubImg03 from "@/public/img/LP/about-btm-sub-03.jpg";
+import AboutBtmSubImg02 from "@/public/img/Dubai_marine.jpeg";
+import AboutBtmSubImg03 from "@/public/img/IDEX-and-NAVDEX-3-scaled.jpg";
 import { ButtonRound } from "../common/Button";
 import { H2, P } from "../common/Styling";
 import { BtnLinkArrow } from "../common/svgIcons";
