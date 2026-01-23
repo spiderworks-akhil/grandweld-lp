@@ -27,14 +27,16 @@ export default function HomeAboutBtm() {
         </div>
 
         <div className="grid w-full md:grid-cols-2 gap-[45px]">
-          <div className="about-btm-block-img relative ">
-            <Image
-              src={AboutBtmMainImg}
-              alt="AboutBtmMainImg"
-              width={660}
-              height={478}
-              className="w-full object-cover rounded-[5px] "
-            />
+          <div className="about-btm-block-img relative h-fit">
+            <div className="w-full">
+              <Image
+                src={AboutBtmMainImg}
+                alt="AboutBtmMainImg"
+                width={660}
+                height={478}
+                className="w-full object-cover rounded-[5px] "
+              />
+            </div>
 
             <div className="grid grid-cols-3 gap-[2px] ">
               <Image
@@ -145,7 +147,6 @@ export default function HomeAboutBtm() {
           </div>
         </div>
       </div>
-      
 
       <PopupModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </section>
