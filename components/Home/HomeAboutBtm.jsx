@@ -49,20 +49,18 @@ export default function HomeAboutBtm() {
               <Image
                 src={AboutBtmSubImg02}
                 alt="AboutBtmSubImg01"
-                width={214}
-                height={258}
+               
                 className="w-full object-cover rounded-[5px] border md:h-[258px] h-[180px] border-[#fff]"
               />
               <Image
                 src={AboutBtmSubImg03}
                 alt="AboutBtmSubImg01"
-                width={214}
-                height={258}
+               
                 className="w-full object-cover rounded-[5px] border md:h-[258px] h-[180px] border-[#fff]"
               />
             </div>
 
-            <div className="absolute bottom-[0px] left-0 w-full p-[30px]">
+            <div className="absolute top-[500px] left-0 w-full p-[30px] shadow-xl shadow-black/20">
               <ButtonRound
                 text="Get a Quote"
                 onClick={() => setIsModalOpen(true)}
