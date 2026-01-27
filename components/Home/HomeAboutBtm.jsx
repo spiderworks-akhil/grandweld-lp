@@ -60,7 +60,10 @@ export default function HomeAboutBtm() {
               />
             </div>
 
-            <div className="absolute top-[500px] left-0 w-full p-[30px] shadow-xl shadow-black/20">
+            <div className="absolute top-[500px] left-0 w-full p-[30px] shadow-xl shadow-black/20  max-md:static
+    max-md:top-auto
+    max-md:p-4
+    max-md:shadow-none">
               <ButtonRound
                 text="Get a Quote"
                 onClick={() => setIsModalOpen(true)}
