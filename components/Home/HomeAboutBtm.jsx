@@ -15,7 +15,7 @@ export default function HomeAboutBtm() {
       <div className="container">
         <div className="flex  flex-wrap ">
           <div className="w-full  md:pb-[100px] pb-[50px]">
-            <h3 className="text-[#1E1E1E] font-segoe-ui md:text-[38px] text-[20px] font-[600] md:leading-[55px] tracking-[-0.38px] leading-[53px] text-center">
+            <h3 className="text-[#1E1E1E] font-bold md:text-[38px] text-[20px] font-[600] md:leading-[55px] tracking-[-0.38px] leading-[53px] text-center">
               Why Choose Us ?
             </h3>
           </div>

@@ -126,7 +126,7 @@ export default function Service() {
                 >
                   <div className="relative z-10 h-full flex flex-col">
                     <div className="grow">
-                      <h3 className="text-[#1E1E1E] font-segoe-ui text-[18px] font-[800] leading-[18px] capitalize">
+                      <h3 className="text-[#1E1E1E] font-bold text-[18px] font-[800] leading-[18px] capitalize">
                         {service.title}
                       </h3>
                       <hr className="border-[#BFB6A8] mt-[6px] mb-[9px]" />
@@ -135,7 +135,8 @@ export default function Service() {
                           service.description.map((desc, index) => (
                             <p
                               key={`desc-${index}`}
-                              className="text-[#1E1E1E] text-[15px] font-segoe-ui font-[500] leading-[18px] rounded backdrop-blur-sm"
+                              className="text-[#1E1E1E] text-[14px] font-segoe-ui font-[500] leading-[22px] rounded backdrop-blur-sm
+"
                             >
                               {desc}
                             </p>

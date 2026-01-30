@@ -6,7 +6,7 @@ export default function HomeVideoSection() {
       <div className="container">
         {/* Heading */}
         <div className="text-center mb-[50px]">
-          <h2 className="text-[#1E1E1E] font-segoe-ui md:text-[36px] text-[28px] font-[400] leading-[48px]">
+          <h2 className="text-[#1E1E1E] font-bold md:text-[36px] text-[28px] font-[400] leading-[48px]">
             Experience Grandweld Shipyards
           </h2>
 
