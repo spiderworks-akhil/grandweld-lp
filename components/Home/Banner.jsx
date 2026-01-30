@@ -17,11 +17,12 @@ export default function HomeBanner({}) {
            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-black/20" />
       </div>
 
-      <div className="home-banner-content-block absolute bottom-[50px] w-full">
+      <div className="home-banner-content-block absolute bottom-[80px] w-full">
         <div className="container">
           <div className="flex mx-[-15px] flex-wrap items-end justify-between">
             <div className="lg:w-6/12 w-full px-[15px]">
-              <div className="home-banner-content-block-left md:block hidden">
+           <div className="home-banner-content-block-left md:block hidden relative lg:top-[-60px]">
+
                 <ButtonRound
                   text="Since 1984"
                   className="text-[13px] bg-[#fff] hover:bg-[#000] text-[#050505] hover:text-[#fff]"
