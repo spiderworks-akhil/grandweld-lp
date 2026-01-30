@@ -55,7 +55,7 @@ const Header = ({ showBg = true, data }) => {
                     width={800}
                     height={800}
                     alt="logo"
-                    className="w-[120px] object-cover"
+                    className="w-[100px] object-cover"
                   />
                 </a>
               </div>

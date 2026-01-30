@@ -2,7 +2,7 @@
 
 export default function HomeVideoSection() {
   return (
-    <section className="relative py-[100px] bg-[#F7F9FC]">
+    <section className="relative py-[40px] bg-[#F7F9FC]">
       <div className="container">
         {/* Heading */}
         <div className="text-center mb-[50px]">

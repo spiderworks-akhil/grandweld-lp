@@ -15,19 +15,14 @@ export default function HomeAboutBtm() {
       <div className="container">
         <div className="flex  flex-wrap ">
           <div className="w-full  md:pb-[100px] pb-[50px]">
-            <h3 className="text-[#1E1E1E] font-segoe-ui md:text-[28px] text-[20px] font-[400] md:leading-[55px] tracking-[-0.38px] leading-[45px]">
-              Grandweld Shipyards is a trusted ship repair specialist located at
-              Dubai Maritime City, UAE, with more than 40 years of industry
-              experience. We provide dependable drydock and afloat ship repair
-              services for offshore, commercial, and naval vessels, supported by
-              skilled teams and modern facilities to deliver high-quality
-              workmanship with minimal downtime.
+            <h3 className="text-[#1E1E1E] font-segoe-ui md:text-[38px] text-[20px] font-[600] md:leading-[55px] tracking-[-0.38px] leading-[53px] text-center">
+              Why Choose Us ?
             </h3>
           </div>
         </div>
 
         <div className="grid w-full md:grid-cols-2 gap-[45px]">
-          <div className="about-btm-block-img relative h-fit">
+          <div className="about-btm-block-img relative flex flex-col h-full">
             <div className="w-full">
               <Image
                 src={AboutBtmMainImg}
@@ -49,21 +44,21 @@ export default function HomeAboutBtm() {
               <Image
                 src={AboutBtmSubImg02}
                 alt="AboutBtmSubImg01"
-               
                 className="w-full object-cover rounded-[5px] border md:h-[258px] h-[180px] border-[#fff]"
               />
               <Image
                 src={AboutBtmSubImg03}
                 alt="AboutBtmSubImg01"
-               
                 className="w-full object-cover rounded-[5px] border md:h-[258px] h-[180px] border-[#fff]"
               />
             </div>
 
-            <div className="absolute top-[500px] left-0 w-full p-[30px] shadow-xl shadow-black/20  max-md:static
+            <div
+              className="mt-6 p-[30px] shadow-xl shadow-black/20 max-md:static
     max-md:top-auto
     max-md:p-4
-    max-md:shadow-none">
+    max-md:shadow-none"
+            >
               <ButtonRound
                 text="Get a Quote"
                 onClick={() => setIsModalOpen(true)}
@@ -107,7 +102,7 @@ export default function HomeAboutBtm() {
             </div>
 
             <div className="">
-              <div className="about-statics-bg grid grid-cols-2 py-[25px] items-center rounded-[2px]">
+              <div className="about-statics-bg grid grid-cols-2 py-[13px] items-center rounded-[2px]">
                 <div className="py-[52px] border-r border-[#FFF] px-[30px]">
                   <h3 className="text-[#fff] font-segoe-ui text-[54px] font-[400] leading-[51px] mb-[15px] ">
                     300+

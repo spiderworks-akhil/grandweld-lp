@@ -5,7 +5,7 @@ import { BtnLinkArrow } from "./svgIcons";
 
 export default function ContactForm({}) {
   return (
-    <form className="form bg-[#ffffff6e] py-[25px] px-[15px] rounded-[15px]">
+    <form className="form bg-[#ffffff6e] py-[20px] px-[10px] rounded-[15px]">
       <div className="w-full ">
         <h2 className="text-[#000] font-segoe-ui lg:text-[40px] text-[30px] font-[400] lg:leading-[45px] leading-[35px] tracking-[-0.64px] mt-[15px] mb-[20px]">
           World-Class <strong> Ship Repair</strong> Services in
