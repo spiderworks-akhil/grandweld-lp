@@ -24,6 +24,7 @@ export default function HomeAboutBtm() {
         <div className="grid w-full md:grid-cols-2 gap-[45px]">
           <div className="about-btm-block-img relative flex flex-col h-full">
             <div className="w-full">
+              
               <Image
                 src={AboutBtmMainImg}
                 alt="AboutBtmMainImg"
