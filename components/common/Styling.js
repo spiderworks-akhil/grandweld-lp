@@ -4,7 +4,7 @@ import { TextShapeWhite } from "./svgIcons";
 
 export const H2 = ({ text, className, span }) => {
   return (
-    <h2 className={`text-[#1E1E1E] font-segoe-ui text-[44px] font-[600] leading-[53px]  capitalize ${className} `}
+    <h2 className={`text-[#1E1E1E] font-segoe-ui text-[44px] font-[400] leading-[53px]  capitalize ${className} `}
     >
       {text}
       {span}
