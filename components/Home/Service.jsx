@@ -20,7 +20,7 @@ const serviceData = [
  
   {
     id: 5,
-    title: "Drydockings",
+    title: "DRYDOCKINGS",
     imageSrc: ServiceImg05,
     bgImage: "/img/bg-san.png",
     description: [
@@ -29,7 +29,7 @@ const serviceData = [
   },
   {
     id: 6,
-    title: "Afloat repairs",
+    title: "AFLOAT REPAIRS",
     imageSrc: ServiceImg06,
     bgImage: "/img/bg-san2.jpg",
     description: [
@@ -38,7 +38,7 @@ const serviceData = [
   },
   {
     id: 7,
-    title: "Workshop repairs",
+    title: "WORKSHOP REPAIRS",
     imageSrc: ServiceImg07,
       bgImage: "/img/bg-san.png",
     description: [
@@ -47,7 +47,7 @@ const serviceData = [
   },
   {
     id: 8,
-    title: "Deck upgrades",
+    title: "DECK UPGRADES",
     imageSrc: ServiceImg08,
  bgImage: "/img/bg-san2.jpg",
      description: [
@@ -56,7 +56,7 @@ const serviceData = [
   },
   {
     id: 9,
-    title: "Propulsion upgrades",
+    title: "PROPULSION UPGRADES",
     imageSrc: ServiceImg09,
        bgImage: "/img/bg-san.png",
     description: [
@@ -65,7 +65,7 @@ const serviceData = [
   },
   {
     id: 10,
-    title: "Hull upgrades",
+    title: "HULL UPGRADES",
     imageSrc: ServiceImg10,
      bgImage: "/img/bg-san2.jpg",
     description: [
@@ -74,7 +74,7 @@ const serviceData = [
   },
   {
     id: 11,
-    title: "Refits and Greentech upgrades",
+    title: "REFITS AND GREENTECH UPGRADES",
     imageSrc: ServiceImg11,
        bgImage: "/img/bg-san.png",
     description: [
