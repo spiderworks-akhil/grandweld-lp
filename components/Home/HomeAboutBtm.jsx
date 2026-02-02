@@ -15,13 +15,8 @@ export default function HomeAboutBtm() {
       <div className="container">
         <div className="flex  flex-wrap ">
           <div className="w-full  md:pb-[100px] pb-[50px]">
-            <h3 className="text-[#1E1E1E] font-segoe-ui md:text-[28px] text-[20px] font-[400] md:leading-[55px] tracking-[-0.38px] leading-[45px]">
-              Grandweld Shipyards is a trusted ship repair specialist located at
-              Dubai Maritime City, UAE, with more than 40 years of industry
-              experience. We provide dependable drydock and afloat ship repair
-              services for offshore, commercial, and naval vessels, supported by
-              skilled teams and modern facilities to deliver high-quality
-              workmanship with minimal downtime.
+            <h3 className="text-[#1E1E1E] font-bold md:text-[38px] text-[20px] font-[600] md:leading-[55px] tracking-[-0.38px] leading-[53px] text-center">
+              Why Choose Us ?
             </h3>
           </div>
         </div>
