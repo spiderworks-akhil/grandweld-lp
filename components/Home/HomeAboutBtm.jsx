@@ -102,8 +102,8 @@ export default function HomeAboutBtm() {
               </div>
             </div>
 
-            <div className="">
-              <div className="about-statics-bg grid grid-cols-2 py-[13px] items-center rounded-[2px]">
+            <div className="relative">
+              <div className="about-statics-bg grid grid-cols-2 py-[9px] items-center rounded-[2px]">
                 <div className="py-[52px] border-r border-[#FFF] px-[30px]">
                   <h3 className="text-[#fff] font-segoe-ui text-[54px] font-[400] leading-[51px] mb-[15px] ">
                     300+
@@ -123,7 +123,7 @@ export default function HomeAboutBtm() {
                 </div>
               </div>
 
-              <div className="bg-[#EDF5FF] px-[18px] pt-[56px] pb-[22px] rounded-[2px]">
+              <div className="bg-[#EDF5FF] px-[18px] pt-[50px] pb-[22px] rounded-[2px]">
                 <h4 className="text-[#000] font-segoe-ui text-[14px] font-[400] ">
                   Accreditations
                 </h4>
