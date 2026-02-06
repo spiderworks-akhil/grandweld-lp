@@ -154,7 +154,7 @@ export default function Service() {
                     </div>
 
                     <ButtonRound
-                      text="Get a Quote"
+                      text="Enquire Now"
                       onClick={() => setIsModalOpen(true)}
                       className="bg-[#fff] hover:bg-[#000] text-[#050505] hover:text-[#fff] text-[14px] capitalize flex items-center justify-between w-full mt-6"
                       arrow={

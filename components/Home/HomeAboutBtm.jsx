@@ -61,7 +61,7 @@ export default function HomeAboutBtm() {
     max-md:shadow-none"
             >
               <ButtonRound
-                text="Get a Quote"
+                text="Enquire Now"
                 onClick={() => setIsModalOpen(true)}
                 className="text-[14px] capitalize flex items-center justify-between w-full mt-6 text-[#000] border border-[#EEE] bg-[#fff] hover:bg-[#000] text-[#050505] hover:text-[#fff] w-full "
                 arrow={

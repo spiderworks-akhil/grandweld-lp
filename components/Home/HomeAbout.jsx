@@ -37,7 +37,7 @@ export default function HomeAbout() {
 
                 <ButtonRound
                   onClick={() => setIsModalOpen(true)}
-                  text="Get a Quote"
+                  text="Enquire Now"
                   className="text-[14px] capitalize flex items-center justify-between max-w-[242px] w-full mt-6 text-[#fff] bg-[#000] border border-[#EEE]"
                   arrow={
                     <span className="text-white">

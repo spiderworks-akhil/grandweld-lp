@@ -54,7 +54,7 @@ export default function VideoWrapper() {
               </div>
 
               <ButtonRound
-                text="Get a Quote"
+                text="Enquire Now"
                 onClick={() => setIsModalOpen(true)}
                 className="bg-[#fff] hover:bg-[#000] text-[#050505] hover:text-[#fff] text-[13px] max-w-[193px] w-full capitalize flex items-center justify-between w-full text-[#2C0C0C] "
                 arrow={

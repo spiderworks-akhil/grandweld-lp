@@ -27,7 +27,7 @@ export default function HomeAboutLP() {
                 />
 <div className="btn pt-7">
                 <ButtonRound
-                  text="Get a Quote"
+                  text="Enquire Now"
                   onClick={() => setIsModalOpen(true)}
                   className="text-[14px] capitalize flex items-center justify-between max-w-[242px] w-full mt-6  text-[#fff] bg-[#000] border border-[#EEE]"
                   arrow={

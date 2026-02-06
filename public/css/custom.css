@@ -224,3 +224,28 @@
     font-weight: 400;
     line-height: 21px;
 }
+
+/* PHONE INPUT — UI PRESERVED */
+.custom-phone-input {
+  width: 100% !important;
+  height:48px !important;
+}
+
+.custom-phone-input input {
+  width: 100% !important;
+  border: 1px solid #001D21 !important;
+  border-radius: 40px !important;
+  padding: 10px 20px 10px 58px !important;
+  font-size: 18px;
+  color: #4F767C;
+
+}
+
+.custom-phone-input .flag-dropdown {
+  background: transparent !important;
+  border: none !important;
+}
+
+.custom-phone-input .selected-flag {
+  padding-left: 16px !important;
+}
