@@ -9,6 +9,7 @@ import HomeAboutBtm from "@/components/Home/HomeAboutBtm";
 import ContactForm from "@/components/common/ContactForm";
 import HomeVideoSection from "@/components/Home/HomeVideoSection";
 import VesselsWeRepair from "@/components/Home/vessel";
+import Thankyou from "@/pages/thank-you";
 
 export default function Home({}) {
   return (
@@ -18,6 +19,7 @@ export default function Home({}) {
       <div>
         <div className="lg:hidden block">
           <ContactForm />
+       
         </div>
       </div>
 
@@ -31,7 +33,6 @@ export default function Home({}) {
       <HomeAboutBtm />
 
       <HomeVideoSection />
-
       <IndustryLeaders />
     </Base>
   );

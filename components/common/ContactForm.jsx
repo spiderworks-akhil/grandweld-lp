@@ -8,8 +8,10 @@ import axios from "axios";
 import { useRef, useState } from "react";
 import { ButtonRound } from "./Button";
 import { BtnLinkArrow } from "./svgIcons";
+import { useRouter } from "next/navigation";
 
 export default function ContactForm() {
+  const router = useRouter();
   const {
     register,
     handleSubmit,
@@ -50,8 +52,8 @@ export default function ContactForm() {
         },
       });
 
-      alert("Submitted successfully");
       reset();
+      router.push("/thank-you");
     } catch (err) {
       console.error(err);
       alert("Submission failed");
@@ -132,14 +134,12 @@ export default function ContactForm() {
 
         {/* Message */}
         <div className="input-block mb-[14px]">
-        <textarea
-  {...register("message")}
-  rows={3}
-  placeholder="Enter your message"
-  className="w-full border py-[10px] px-[20px] bg-[#fff] rounded-[20px] resize-none"
-/>
-
-       
+          <textarea
+            {...register("message")}
+            rows={3}
+            placeholder="Enter your message"
+            className="w-full border py-[10px] px-[20px] bg-[#fff] rounded-[20px] resize-none"
+          />
         </div>
       </div>
 
