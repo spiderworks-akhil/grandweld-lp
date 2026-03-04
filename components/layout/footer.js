@@ -25,11 +25,25 @@ const Footer = ({ data }) => {
           <div className="flex justify-between flex-wrap">
             <div className="py-[40px]">
               <ul className="flex flex-col gap-[20px]">
-                <li className="flex items-center gap-[10px] text-[#1E1E1E] font-segoe-ui text-[14px] font-[400] leading-normal ">
-                  <EmailIcon /> info@grandweld.com
+                <li className="flex items-center gap-[10px] text-[#1E1E1E] font-segoe-ui text-[14px] font-[400] leading-normal">
+                  <EmailIcon />
+                  <a
+                    href="mailto:info@grandweld.com"
+                    className="hover:underline"
+                  >
+                    info@grandweld.com
+                  </a>
                 </li>
-                <li className="flex items-center gap-[10px] text-[#1E1E1E] font-segoe-ui text-[14px] font-[400] leading-normal ">
-                  <PhoneIcon /> +971 4 4270800, +971 4 4270790
+
+                <li className="flex items-center gap-[10px] text-[#1E1E1E] font-segoe-ui text-[14px] font-[400] leading-normal">
+                  <PhoneIcon />
+                  <a href="tel:+97144270800" className="hover:underline">
+                    +971 4 4270800
+                  </a>
+                  ,
+                  <a href="tel:+97144270790" className="hover:underline">
+                    +971 4 4270790
+                  </a>
                 </li>
                 <li className="flex items-center gap-[10px] text-[#1E1E1E] font-segoe-ui text-[14px] font-[400] leading-normal ">
                   <LocationIcon /> Dubai Maritime City, P.O.Box: 24755 Dubai,
@@ -101,7 +115,6 @@ const Footer = ({ data }) => {
             </div>
           </div>
 
-
           <h2 className="footer-text md:text-[75px] text-[40px] font-[400] md:leading-[78px] leading-[45px] font-segoe-ui mt-[120px]">
             grandweld Shipyards
           </h2>
@@ -134,7 +147,7 @@ const Footer = ({ data }) => {
             </div>
             <ul className="flex items-center gap-[10px] ">
               <li className="font-segoe-ui">©2025 Grandweld Shipyards</li>
-{/* 
+              {/* 
               <span className="border-[#1E1E1E] border-l h-[15px] "></span>
 
               <li className="font-segoe-ui">

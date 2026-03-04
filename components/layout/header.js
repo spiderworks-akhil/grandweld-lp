@@ -117,15 +117,17 @@ const Header = ({ showBg = true, data }) => {
               </ul> */}
             </div>
 
-            <div className="flex menu-nav">
-              <ButtonRound
-                text="+971 4 4270800"
-                className="text text-[14px] flex items-center gap-[10px] bg-[#fff] hover:bg-[#000] text-[#050505] hover:text-[#fff]"
-                span={
-                  <span className="round-span w-[20px] h-[20px] rounded-[50%] bg-[linear-gradient(180deg,#64C7FC_0%,#004C7E_100%)]"></span>
-                }
-              />
-            </div>
+            <a href="tel:+97144270800">
+              <div className="flex menu-nav">
+                <ButtonRound
+                  text="+971 4 4270800"
+                  className="text text-[14px] flex items-center gap-[10px] bg-[#fff] hover:bg-[#000] text-[#050505] hover:text-[#fff]"
+                  span={
+                    <span className="round-span w-[20px] h-[20px] rounded-[50%] bg-[linear-gradient(180deg,#64C7FC_0%,#004C7E_100%)]"></span>
+                  }
+                />
+              </div>
+            </a>
           </div>
         </div>
       </header>
