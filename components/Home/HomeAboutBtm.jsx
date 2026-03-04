@@ -25,6 +25,7 @@ export default function HomeAboutBtm() {
           <div className="about-btm-block-img relative flex flex-col h-full">
             <div className="w-full">
               
+              
               <Image
                 src={AboutBtmMainImg}
                 alt="AboutBtmMainImg"
