@@ -146,7 +146,7 @@ const Footer = ({ data }) => {
               </div>
             </div>
             <ul className="flex items-center gap-[10px] ">
-              <li className="font-segoe-ui">©2025 Grandweld Shipyards</li>
+              <li className="font-segoe-ui">©2026 Grandweld Shipyards</li>
               {/* 
               <span className="border-[#1E1E1E] border-l h-[15px] "></span>
 
