@@ -24,6 +24,7 @@ export default function ContactForm() {
 
   const recaptchaRef = useRef(null);
   const [loading, setLoading] = useState(false);
+  const [enquiryType, setEnquiryType] = useState("ship-repair");
 
   // Manually register phone field
   register("phone", {
@@ -35,6 +36,10 @@ export default function ContactForm() {
   });
 
   const onSubmit = async (data) => {
+    if (enquiryType === "job-enquiries") {
+      window.location.href = "https://www.grandweld.com/explore-careers/";
+      return;
+    }
     console.log("Form Data:", data);
     setLoading(true);
 
@@ -74,6 +79,24 @@ export default function ContactForm() {
         <h2 className="text-[#000] font-segoe-ui lg:text-[40px] text-[30px] mt-[12px] mb-[16px]">
           World-Class <strong> Ship Repair</strong> Services in UAE
         </h2>
+
+        {/* Enquiry Type Dropdown */}
+        <div className="input-block mb-[14px]">
+          <select
+            value={enquiryType}
+            onChange={(e) => {
+              const val = e.target.value;
+              setEnquiryType(val);
+              if (val === "job-enquiries") {
+                window.open("https://www.grandweld.com/explore-careers/", "_blank");
+              }
+            }}
+            className="w-full border py-[10px] px-[20px] bg-[#fff] rounded-[40px] appearance-none cursor-pointer"
+          >
+            <option value="ship-repair">Ship Repair</option>
+            <option value="job-enquiries">Job Enquiries</option>
+          </select>
+        </div>
 
         {/* Company */}
         <div className="input-block mb-[14px]">
