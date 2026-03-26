@@ -93,7 +93,7 @@ export default function ContactForm() {
                 const val = e.target.value;
                 setEnquiryType(val);
                 setValue("enquiryType", val, { shouldValidate: true });
-                if (val === "job-enquiries") {
+                if (val === "job-enquiry") {
                   window.open("https://www.grandweld.com/explore-careers/", "_blank");
                 }
               }}
@@ -105,7 +105,7 @@ export default function ContactForm() {
             </select>
             <div className="pointer-events-none absolute inset-y-0 right-[20px] flex items-center">
               <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 1L7 7L13 1" stroke="#000" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M1 1L7 7L13 1" stroke="#000" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </div>
           </div>
