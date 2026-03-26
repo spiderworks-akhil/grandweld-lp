@@ -24,9 +24,13 @@ export default function ContactForm() {
 
   const recaptchaRef = useRef(null);
   const [loading, setLoading] = useState(false);
-  const [enquiryType, setEnquiryType] = useState("ship-repair");
+  const [enquiryType, setEnquiryType] = useState("");
 
-  // Manually register phone field
+  // Manually register fields
+  register("enquiryType", {
+    required: "Please select a category",
+  });
+
   register("phone", {
     required: "Phone number is required",
     minLength: {
@@ -82,20 +86,34 @@ export default function ContactForm() {
 
         {/* Enquiry Type Dropdown */}
         <div className="input-block mb-[14px]">
-          <select
-            value={enquiryType}
-            onChange={(e) => {
-              const val = e.target.value;
-              setEnquiryType(val);
-              if (val === "job-enquiries") {
-                window.open("https://www.grandweld.com/explore-careers/", "_blank");
-              }
-            }}
-            className="w-full border py-[10px] px-[20px] bg-[#fff] rounded-[40px] appearance-none cursor-pointer"
-          >
-            <option value="ship-repair">Ship Repair</option>
-            <option value="job-enquiries">Job Enquiries</option>
-          </select>
+          <div className="relative">
+            <select
+              value={enquiryType}
+              onChange={(e) => {
+                const val = e.target.value;
+                setEnquiryType(val);
+                setValue("enquiryType", val, { shouldValidate: true });
+                if (val === "job-enquiries") {
+                  window.open("https://www.grandweld.com/explore-careers/", "_blank");
+                }
+              }}
+              className="w-full border py-[10px] pl-[20px] pr-[40px] bg-[#fff] rounded-[40px] appearance-none cursor-pointer"
+            >
+              <option value="" disabled hidden>Choose Categories</option>
+              <option value="ship-repair">Ship Repair</option>
+              <option value="job-enquiries">Job Enquiries</option>
+            </select>
+            <div className="pointer-events-none absolute inset-y-0 right-[20px] flex items-center">
+              <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L7 7L13 1" stroke="#000" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </div>
+          </div>
+          {errors.enquiryType && (
+            <p className="text-red-500 text-[12px] mt-1">
+              {errors.enquiryType.message}
+            </p>
+          )}
         </div>
 
         {/* Company */}
