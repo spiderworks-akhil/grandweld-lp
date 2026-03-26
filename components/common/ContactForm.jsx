@@ -101,7 +101,7 @@ export default function ContactForm() {
             >
               <option value="" disabled hidden>Choose Categories</option>
               <option value="ship-repair">Ship Repair</option>
-              <option value="job-enquiries">Job Enquiries</option>
+              <option value="job-enquiry">Job Enquiry</option>
             </select>
             <div className="pointer-events-none absolute inset-y-0 right-[20px] flex items-center">
               <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
